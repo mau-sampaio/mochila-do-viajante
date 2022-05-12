@@ -1,0 +1,19 @@
+git init
+    = Ele inicia um repositorio no local atual. 
+git status
+    = Ele verifica o status atual do repositorio local.
+        (Ex: Se tem arquivos alterados mas não rastreados.)
+git add .
+    = Ele adiciona todos os arquivos nao rastreados na fila de preparados para criar um commit.
+git add file_name
+    = Ele envia o arquivo selecionado para fila de preparados para criar um commit.
+git commit -m "Colocar um comentario"
+    = Ele criar um ponto na historia do projeto com os arquivos adicionados na fila de preparados. 
+git push
+    = Ele envia os commit que estavam na fila do repositorio local para o remoto
+git pull
+    = Ele sincroniza o repositorio local com o repositorio remoto.
+git clone url
+    = Ele cloca o repositorio selecionado na url na pasta atual.
+git checkout -b Nome_Da_Branch
+    = Ele cria uma branch no repositorio local.
